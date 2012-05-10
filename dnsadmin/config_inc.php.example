@@ -3,7 +3,7 @@
      AddZone(ZoneType, Zone, DNS Server Addr);
   */
   AddZone("FW","maleinfach.de.","127.0.0.1");
-  
+ 
   SetVar("TEMP","/tmp/");
   SetVar("DIG","/usr/bin/dig");
   SetVar("NSUPDATE","/usr/bin/nsupdate");
